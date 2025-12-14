@@ -1,7 +1,7 @@
 Package: snic
 Title: Superpixel Segmentation with the Simple Non-Iterative Clustering
         Algorithm
-Version: 0.6.0
+Version: 0.6.1
 Authors@R: c(
     person(given = "Rolf", family = "Simoes", email = "rolfsimoes@gmail.com", 
     role = c("aut", "cre"), comment = c(ORCID = "0000-0003-0953-4132")),
@@ -35,11 +35,11 @@ Encoding: UTF-8
 Language: en-US
 License: GPL (>= 2)
 NeedsCompilation: yes
-Packaged: 2025-11-28 03:49:24 UTC; rolf
+Packaged: 2025-12-14 03:13:57 UTC; rolf
 Author: Rolf Simoes [aut, cre] (ORCID: <https://orcid.org/0000-0003-0953-4132>),
   Felipe Souza [aut] (ORCID: <https://orcid.org/0000-0002-5826-1700>),
   Felipe Carlos [aut] (ORCID: <https://orcid.org/0000-0002-3334-4315>),
   Gilberto Camara [aut, rth] (ORCID:
     <https://orcid.org/0000-0002-3681-487X>)
 Repository: CRAN
-Date/Publication: 2025-12-03 20:40:02 UTC
+Date/Publication: 2025-12-14 03:30:02 UTC

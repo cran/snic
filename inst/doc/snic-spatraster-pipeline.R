@@ -1,4 +1,8 @@
 ## ----setup, include = FALSE---------------------------------------------------
+library(snic)
+
+terra_available <- requireNamespace("terra", quietly = TRUE) && terra_is_working()
+
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
@@ -6,9 +10,14 @@ knitr::opts_chunk$set(
   warning = FALSE,
   fig.retina = 1,
   quality = 0.3,
-  dpi = 50
+  dpi = 50,
+  eval = terra_available
 )
-library(snic)
+
+## ----terra-note, echo=FALSE, results='asis', eval=TRUE------------------------
+if (!terra_available) {
+  cat("> **Note:** This vignette requires the terra package with working CRS support. Code chunks are disabled on this platform.\n")
+}
 
 ## ----load-imagery-------------------------------------------------------------
 library(terra)
